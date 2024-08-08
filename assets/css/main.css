@@ -2948,7 +2948,7 @@ input, select, textarea {
 		}
 
 		header.major {
-			margin: 0 0 4rem 0;
+			margin: 0 0 2rem 0;
 			text-align: center;
 		}
 
@@ -3782,7 +3782,7 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
+			/* padding: 8rem 8rem 6rem 8rem ; */
 		}
 
 			#main > .post header.major > .date {
