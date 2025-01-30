@@ -1,6 +1,6 @@
 let currentIndex = 0;
 const postsContainer = document.querySelector('.posts-container');
-const posts = document.querySelectorAll('.post');
+const posts = document.querySelectorAll('.post1');
 const totalPosts = posts.length;
 
 function scrollPosts(direction) {

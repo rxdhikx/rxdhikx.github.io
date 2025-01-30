@@ -10,7 +10,7 @@
     transition: transform 0.5s ease; /* Smooth sliding animation */
 }
 
-.post {
+.post1 {
     flex: 0 0 33.33%; /* Each post takes 1/3 of the container */
     box-sizing: border-box;
     padding: 10px;
@@ -24,14 +24,14 @@
     display: block; /* Make the entire area clickable */
 }
 
-.post img {
+.post1 img {
     width: 100%; /* Make the image responsive */
     height: 250px; /* Increased height for larger images */
     object-fit: cover; /* Ensure the image covers the area without distortion */
     border-radius: 10px;
 }
 
-.post-content {
+.post1-content {
     position: absolute;
     bottom: 10px;
     left: 10px;
@@ -42,12 +42,12 @@
     border-radius: 5px;
 }
 
-.post-content h3 {
+.post1-content h3 {
     margin: 0;
     font-size: 1.2em; /* Slightly larger font size for the title */
 }
 
-.post-content p {
+.post1-content p {
     margin: 5px 0;
     font-size: 0.9em; /* Slightly larger font size for the description */
 }
